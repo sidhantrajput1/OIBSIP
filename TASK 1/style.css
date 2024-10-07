@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.header-section {
+    background-image: url(./home-page.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: fit-content; */
+    padding-bottom: 20rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.testonomial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.testonomial-heading {
+    font-size:4rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+#testonomial-h4 {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+#testonomial-button {
+    border: none;
+    padding: 10px;
+    border:1px solid black ;
+    border-radius: 20px;
+    background-color: #72d367;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+}
