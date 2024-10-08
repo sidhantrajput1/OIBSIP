@@ -35,12 +35,14 @@
     align-items: center;
     gap: 1.5rem;
     padding: 3rem;
+    
 }
 
 .testonomial-heading {
     font-size:4rem;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 4px;
+    word-spacing: 1px;
 }
 
 #testonomial-h4 {
@@ -52,10 +54,162 @@
 #testonomial-button {
     border: none;
     padding: 10px;
-    border:1px solid black ;
+    /* border:1px solid black ; */
     border-radius: 20px;
     background-color: #72d367;
     font-weight: 700;
     cursor: pointer;
     font-size: 1rem;
+    /* width: 12rem; */
+}
+
+
+.product {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.product-1 {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.product-1-img {
+    height: 25rem;
+}
+
+.product-1-description {
+    display: grid;
+    gap: 1.4rem;
+
+}
+
+.product-1-parh {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    /* line-height: 1.5rem; */
+    word-spacing: 1px;
+}
+
+.product-1-heading {
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+.product-1-btn {
+    border: none;
+    padding: 10px;
+    /* border:1px solid black ; */
+    border-radius: 20px;
+    background-color: #377d2fdb;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 10rem;
+    color: white;
+}
+
+.product-2 {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.product-2-description {
+    display: grid;
+    gap: 2rem;
+}
+
+.product-2-heading {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.product-2-img {
+    height: 25rem;
+}
+
+.product-2-parh {
+    font-weight: 500;
+    /* font-size: 1rem; */
+    line-height: 1.5rem;
+    word-spacing: 1px;
+}
+
+.product-3 {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.product-3-img {
+    height: 25rem;
+}
+
+.social-icon img{
+    height: 2rem;
+}
+
+.product-3-decription {
+    display: grid;
+    gap: .9rem;
+}
+
+.product-3-heading {
+    font-size: 1.8rem;
+    word-spacing: 1px;
+    font-weight: 700;
+}
+
+.product-3-btn {
+    border: none;
+    padding: 10px;
+    /* border:1px solid black ; */
+    border-radius: 20px;
+    background-color: #377d2fdb;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 10rem;
+    color: white;
+}
+
+
+.vpn-container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.vpn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.vpn-el {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.vpn-el-img {
+    height: 11rem;
+    width: 20rem;
+}
+
+.vpn-el-parh {
+    padding-left: 2rem;
+    letter-spacing: 1px;
 }
