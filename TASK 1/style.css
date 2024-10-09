@@ -197,6 +197,18 @@
     gap: 2rem;
 }
 
+@media screen and (max-width:700px) {
+    .vpn {
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        align-items: start;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1.4rem;
+    }
+}
+
 .vpn-el {
     display: grid;
     gap: 1rem;
