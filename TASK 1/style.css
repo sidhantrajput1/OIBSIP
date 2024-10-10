@@ -14,7 +14,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* height: fit-content; */
     padding-bottom: 20rem;
 }
 
@@ -27,6 +26,42 @@
 #logo-img {
     height: 5rem;
     width: 5rem;
+}
+.nav-items {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items li:hover {
+    color: orange;
+}
+
+.toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:760px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    .nav-items:link {
+        display: flex;
+    }
+    .toggle {
+        display: block;
+        padding-right: .5rem;
+        color: #333;
+    }
 }
 
 .testonomial {
@@ -113,6 +148,22 @@
     color: white;
 }
 
+@media screen and (max-width:760px) {
+    .product-1 {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* padding: 5rem; */
+    }
+    .product-1-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
 .product-2 {
     display: flex;
     align-items: center;
@@ -142,6 +193,13 @@
     word-spacing: 1px;
 }
 
+@media screen and (max-width:700px) {
+    .product-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .product-3 {
     display: flex;
     align-items: center;
@@ -156,6 +214,9 @@
 
 .social-icon img{
     height: 2rem;
+    border-radius: 8px;
+    background: #121111;
+    outline: none;
 }
 
 .product-3-decription {
@@ -182,6 +243,13 @@
     color: white;
 }
 
+@media screen and (max-width:700px) {
+    .product-3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 .vpn-container {
     max-width: 1080px;
@@ -195,9 +263,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding-bottom: 2rem;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:760px) {
     .vpn {
         /* display: grid; */
         grid-template-columns: 1fr;
@@ -236,7 +305,6 @@ footer {
     padding: 3rem;
 }
 .footer {
-    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     
@@ -252,12 +320,12 @@ ul li {
     font-weight: 700;
 }
 
-ul li:hover {
-    color: #ace23f;
-}
 
 .footer-heading {
     color: #A1A1AA;
+    padding-bottom:5px ;
+    /* border-bottom:5px solid #333; */
+    /* border-width: 4rem; */
 }
 
 .footer-heading:hover {
@@ -274,4 +342,11 @@ ul li:hover {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
