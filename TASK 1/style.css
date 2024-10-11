@@ -6,7 +6,7 @@
 
 .container {
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header-section {
@@ -49,6 +49,7 @@
     .nav-items {
         display: none;
         flex-direction: column;
+        align-items: flex-end;
         position: absolute;
         top: 60px;
         left: 0;
@@ -64,6 +65,8 @@
     }
 }
 
+
+ 
 .testonomial {
     display: flex;
     flex-direction: column;
@@ -101,7 +104,7 @@
 
 .product {
     max-width: 1080px;
-    margin: auto;
+    margin:0 auto;
 }
 
 .product-1 {
@@ -153,7 +156,7 @@
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-        /* padding: 5rem; */
+        /* padding: 2rem; */
     }
     .product-1-description {
         display: flex;

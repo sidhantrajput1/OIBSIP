@@ -1,6 +1,8 @@
-const toggle = document.getElementById('toggle'); // Select the toggle element
-const navItems = document.getElementsByClassName('nav-items')[0]; // Select the nav-items
+document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementsByClassName('toggle')[0]; 
+    const navItems = document.getElementsByClassName('nav-items')[0];
 
-toggle.addEventListener('click', () => {
-    navItems.classList.toggle('active'); // Toggle the active class
+    toggle.addEventListener('click', () => {
+        navItems.classList.toggle('active'); 
+    });
 });
