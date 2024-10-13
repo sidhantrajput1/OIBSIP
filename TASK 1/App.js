@@ -6,3 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
         navItems.classList.toggle('active'); 
     });
 });
+
+
