@@ -148,6 +148,7 @@ input:checked + .slider:before {
     gap: 3rem;
     align-items: center;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .hero-left {
@@ -175,4 +176,49 @@ input:checked + .slider:before {
 .social-media-icon a img {
     height: 2rem;
     width: 2rem;
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aboutme-name {
+    font-size: 1.5rem;
+}
+
+.aboutme-testimonial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.aboutme-parh {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.aboutme-parh h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.aboutme-parh p {
+    line-height: 1.4rem;
+    word-spacing: 2px;
+}
+
+.aboutme-icon img{
+    height: 25rem;
+    padding-left: 5rem;
 }
