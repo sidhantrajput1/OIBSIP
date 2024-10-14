@@ -11,10 +11,10 @@
     margin: auto;
 }
 
-/* body {
+body {
     background: #000;
     color: #fff;
-} */
+}
 
 
 .header {
@@ -149,6 +149,7 @@ input:checked + .slider:before {
     align-items: center;
     padding: 1rem;
     margin-bottom: 3rem;
+    /* background-color: #2b353e; */
 }
 
 .hero-left {
@@ -184,6 +185,7 @@ input:checked + .slider:before {
     flex-direction: column;
     gap: 5rem;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 a {
@@ -220,5 +222,35 @@ a {
 
 .aboutme-icon img{
     height: 25rem;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.skills-contain {
+    background-color: #2b353e;
+}
+
+.skill-lang-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.lang-icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.lang-icon img{
+    height: 5rem;
+    width: 5rem;
 }
