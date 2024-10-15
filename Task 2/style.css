@@ -254,6 +254,12 @@ a {
 .lang-icon img{
     height: 5rem;
     width: 5rem;
+} 
+
+.skils-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 .card {
@@ -284,7 +290,59 @@ a {
     border-radius: 8px;
 }
 
-.skils-card {
+.footer {
+    background-color: #4b5762;
+}
+
+.footer-container {
+    padding: 2rem;
     display: flex;
+    align-items: center;
     gap: 1rem;
+    flex-direction: column;
+}
+
+.footer-container h5 {
+    background-color: #c5c5c5;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.footer-parh {
+    max-width: 30rem;
+    font-size: 20px;
+}
+
+
+
+.footer-email a{
+    text-decoration: none; 
+    color: #a5a2a2;  
+    font-size: 1.5rem;
+}
+
+.footer-email {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.email-tag {
+    font-size: 24px; 
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footer-phone a {
+    text-decoration: none;
+    color: #a5a2a2;
+    font-size: 1.5rem;
+}
+
+.footer-description {
+    font-size: 1.4rem;
 }
